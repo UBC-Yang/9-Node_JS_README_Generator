@@ -89,9 +89,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer.prompt(questions)
     .then(readmeData => {
-        writeToFile('./README.md, generateMarkdown(readmeData)')
+        const markdown = generateMarkdown(readmeData);
+        writeToFile('README.md', markdown)
     })
 }
 
