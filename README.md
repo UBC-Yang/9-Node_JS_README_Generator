@@ -5,7 +5,7 @@ Your task is to create a command-line application that dynamically generates a p
 
 ## Walkthrough Video
 
-[video](<../../../Downloads/Project 9 README Generator Demo.webm>)
+[text](<../../../Desktop/Project 9 README Generator Demo.mov>)
 
 ## Link
 Github: https://github.com/UBC-Yang/9-Node_JS_README_Generator
